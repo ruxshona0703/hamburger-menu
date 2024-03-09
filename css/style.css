@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: auto;
+  font-family: "Poppins", "sanserif";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+.header .left-head {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.header .left-head .sign-up {
+  width: 130px;
+  border-radius: 100px;
+  padding: 11px 23px 10px 26px;
+  background-color: #3c4ef3;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.header nav ul {
+  display: flex;
+  gap: 20px;
+}
+.header nav ul li {
+  color: #1e255e;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.material-symbols-outlined {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    display: none;
+  }
+  .material-symbols-outlined {
+    display: inline-block;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    cursor: pointer;
+  }
+  dialog nav {
+    display: inline-flex;
+  }
+  dialog {
+    padding: 20px 15px;
+    width: 60vh;
+  }
+  dialog dialog::backdrop {
+    background-color: #448;
+  }
+  dialog #close {
+    position: absolute;
+    right: 2%;
+  }
+}
+main .connect-banks {
+  display: flex;
+  margin-left: 165px;
+  margin-top: 88px;
+}
+main .connect-banks p {
+  color: #1e255e;
+  width: 403.95px;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .connect-banks .imgs {
+  background-image: url("../imgs/phone.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  width: 794px;
+  height: 682px;
+}
+main .connect-banks button {
+  border-radius: 100px;
+  border: none;
+  padding: 19px 33px;
+  color: #3c4ef3;
+  background-color: rgb(229, 229, 245);
+}
+main .connect-banks h1 {
+  color: #1e255e;
+  width: 540px;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1450px) {
+  .connect-banks {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .phone-img {
+    width: 100vh;
+  }
+}/*# sourceMappingURL=style.css.map */
